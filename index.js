@@ -35,7 +35,7 @@ critical.generate({
     timeout: 30000,
 
     // Prefix for asset directory
-    pathPrefix: '/loveweeklymagazine',
+    pathPrefix: '/',
 
     // ignore CSS rules
     ignore: ['font-face',/some-regexp/],
