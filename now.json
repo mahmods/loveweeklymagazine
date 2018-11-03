@@ -1,7 +1,7 @@
 {
     "static": {
         "headers": [{
-            "source": "**/*.@(jpg|jpeg|gif|png|css|svg|JPG)",
+            "source": "**/*.@(jpg|jpeg|gif|png|css|svg|JPG|woff2)",
             "headers": [{
                 "key": "Cache-Control",
                 "value": "max-age=31536000"
