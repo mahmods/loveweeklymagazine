@@ -1,16 +1,10 @@
 {
     "static": {
         "headers": [{
-            "source": "**/*.@(jpg|jpeg|gif|png|css)",
+            "source": "**/*.@(jpg|jpeg|gif|png|css|svg|JPG)",
             "headers": [{
                 "key": "Cache-Control",
-                "value": "max-age=7200"
-            }]
-        }, {
-            "source": "404.html",
-            "headers": [{
-                "key": "Cache-Control",
-                "value": "max-age=300"
+                "value": "max-age=31536000"
             }]
         }]
     }
